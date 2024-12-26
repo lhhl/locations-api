@@ -33,7 +33,7 @@ $ npm run start:prod
 ### API Endpoint: `/api/v1/locations`
 
 - #### Create first root location - `POST /api/v1/locations`
-  Request
+Request
 
 ```bash
 $ curl -X POST 'http://{url}/api/v1/locations' \
@@ -57,7 +57,7 @@ Response
 ```
 
 - #### Create children location - `POST /api/v1/locations`
-  > Level 1
+> Level 1
 
 Request
 
@@ -122,7 +122,7 @@ Response
 ```
 
 - #### Get all locations - `GET /api/v1/locations`
-  Request
+Request
 
 ```bash
 $ curl -X GET 'http://{url}/api/v1/locations'
@@ -152,7 +152,7 @@ Response
 ```
 
 - #### Get location by id - `GET /api/v1/locations/{id}`
-  Request
+Request
 
 ```bash
 $ curl -X GET 'http://{url}/api/v1/locations/{id}'
@@ -180,7 +180,7 @@ Error Response - `404 Not Found`
 ```
 
 - #### Update location - `PUT /api/v1/locations/{id}`
-  Request
+Request
 
 ```bash
 $ curl -X PUT 'http://{url}/api/v1/locations/{id}' \
@@ -220,7 +220,7 @@ Error Response - `404 Not Found`
 ```
 
 - #### Remove location - `DELETE /api/v1/locations/{id}`
-  Request
+Request
 
 ```bash
 $ curl -X DELETE 'http://{url}/api/v1/locations/{id}'
